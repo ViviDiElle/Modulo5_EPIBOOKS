@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+.App {
+  text-align: center;
+}
+
+.custom-img-height {
+  height: 330px;
+}
+
+.fs-title {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.fs-sbutitle {
+  font-family: 'Caveat', cursive;
+}
+
+/* Jumbotron */
+.bg-image {
+  background-image: url(./assets/background.jpeg) !important;
+  max-height: 40vh;
+  background-position: center !important;
+  background-size: cover !important;
+}
+
+/* Input Navbar */
+
+input {
+  max-width: 220px;
+  max-height: 35px;
+}
+
+/* 
+CSS del componente BookDetails */
+
+.img-custom-book-details {
+  max-height: 400px !important;
+  object-fit: cover !important;
+  padding-right: 1.5rem !important;
+}
+
+/* SingleBook*/
+.title-trunked {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Bottone show details */
+
+.fs-custom {
+  font-size: 0.9rem !important;
+}
+
+.show-details-btn {
+  padding: 10px 20px;
+  border: 1px solid transparent !important;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  background: linear-gradient(
+    354deg,
+    rgba(56, 53, 53, 1) 57%,
+    rgba(102, 102, 102, 1) 100%
+  )!important ;
+}
+
+
+.show-details-btn > svg {
+  width: 34px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.show-details-btn:hover svg {
+  transform: translateX(5px);
+}
+
+.show-details-btn:active {
+  transform: scale(0.95);
+}
+
+/* effetti SingleBook */
+
+.single-book {
+  box-shadow: 3px 3px 10px rgba(27, 27, 27, 0.3);
+  transition: transform 0.3s ease-in !important;
+}
+
+.single-book:hover {
+  transform: scale(1.1) !important;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.5) !important;
+}
+
+/* modale */
+.modal-class {
+  justify-content: center;
+  min-width: 30% ;
+}
+
+.input-text {
+  min-width: 350px;
+}
+
+.input-number {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.input-small {
+  width: 60px !important;
+}
+
+
+.border-custom {
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+}

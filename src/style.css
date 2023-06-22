@@ -1,0 +1,9 @@
+.border-bottom {
+    border-bottom: 2px solid black !important;
+}
+
+.bg-image {
+    background-image: url(https://images.unsplash.com/photo-1443827357341-5def682bb98b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80);
+    height: 60vh;
+    background-position: center;
+}
